@@ -1,0 +1,32 @@
+# Directorios de Python
+# Directorio de caché de compilación de Python (siempre ignorado)
+__pycache__/
+
+# Directorio del entorno virtual (recomendado ignorar)
+.venv/
+# o si usas otro nombre/herramienta como venv, env, o Poetry/Pipenv
+# venv/
+# env/
+# .direnv/
+
+# Archivos de Python generados
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de registro, datos y base de datos
+# Ignorar el directorio 'data' ya que típicamente contiene datos generados
+# o temporales que no deben ser versionados.
+data/
+
+# Archivos temporales o de configuración sensible
+# Si hubieran archivos de configuración que contienen claves o credenciales:
+# config.ini
+# settings.py
+# .env 
+
+# Archivos de IDEs (p. ej., VS Code, si no quieres compartirlos)
+.vscode/
+
+# Historial de comandos (opcional, si existe)
+.python_history
